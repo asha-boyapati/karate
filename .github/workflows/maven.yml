@@ -26,7 +26,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Compile
-      run: mvn install -DskipTests -am -pl karate-core
+      run: mvn install -DskipTests -Dcheckstyle.skip -am -pl karate-core
     - name: Test
       run: mvn test -pl karate-core -Dtest=com.intuit.karate.core.KarateHttpMockHandlerTest#testMultipleCookies
     - name: Test with NonDex
