@@ -2,63 +2,33 @@
   <tr> 
     <th>
       <h3>
-          <a href="https://github.com/karatelabs/karate/wiki/Get-Started:-Visual-Studio-Code">Visual Studio Code</a>
+          <a href="https://github.com/karatelabs/karate/wiki/Get-Started">⏩ <br/> Get Started</a>
       </h3>
    </th>
    <td>
-     Easy setup, recommended if you don't have programming experience
+     Get started using VS Code, IntelliJ, Maven, Gradle, NPM, <br/> GitHub Codespaces, Docker or the command-line
    </td>
   </tr>
   <tr> 
     <th>
       <h3>
-          <a href="https://github.com/karatelabs/karate/wiki/Get-Started:-JetBrains-IntelliJ">JetBrains IntelliJ</a>
-      </h3>
-   </th>
-   <td>
-     Recommended for teams using IntelliJ and working with Maven / Gradle
-   </td>
-  </tr>
-  <tr> 
-    <th>
-      <h3>
-          <a href="https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-Gradle">Maven and Gradle</a>
-      </h3>
-   </th>
-   <td>
-     Generic Maven and Gradle for Java teams, get started on the command-line
-   </td>
-  </tr>
-  <tr> 
-    <th>
-      <h3>
-          <a href="https://github.com/karatelabs/karate/wiki/Get-Started:-GitHub-Codespaces">GitHub Codespaces</a>
-      </h3>
-   </th>
-   <td>
-     No need to install any software, just a browser will do
-   </td>
-  </tr>
-  <tr> 
-    <th>
-      <h3>
-          <a href="https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options">Other Runtime Options</a>
-      </h3>
-   </th>
-   <td>
-     Get started with the Standalone JAR, JBang, NPM or Docker
-   </td>
-  </tr>
-  <tr> 
-    <th>
-      <h3>
-          <a href="https://github.com/karatelabs/karate-examples/blob/main/README.md">Examples</a>
+          <a href="https://github.com/karatelabs/karate-examples/blob/main/README.md">💡 <br/> Examples</a>
       </h3>
    </th>
    <td>
      Examples and demos of integrations with other frameworks
    </td>
-  </tr>  
+  </tr>
+  <tr> 
+    <th>
+      <h3>
+          <a href="https://www.youtube.com/playlist?list=PLnONaB4tNFOkxwM3dOvXLXJstSg_wMJSs">📺 <br/> Kick Start Videos</a>
+      </h3>
+   </th>
+   <td>
+     Beginner-friendly step-by-step guides to starting from scratch
+   </td>
+  </tr>    
 </table>
 
 # Karate
@@ -88,7 +58,7 @@
   </a>
 </div>
 
-<a><img src="karate-core/src/test/resources/karate-map.jpg" height="650" /></a>
+<a href="https://karatelabs.io"><img src="karate-core/src/test/resources/karate-map.jpg" height="650" /></a>
 
 Karate is the only open-source tool to combine API test-automation, [mocks](karate-netty), [performance-testing](karate-gatling) and even [UI automation](karate-core) into a **single**, *unified* framework. The syntax is language-neutral, and easy for even non-programmers. Assertions and HTML reports are built-in, and you can run tests in parallel for speed.
 
@@ -353,12 +323,15 @@ A set of real-life examples can be found here: [Karate Demos](karate-demo)
 For teams familiar with or currently using [REST-assured](http://rest-assured.io), this detailed comparison of [Karate vs REST-assured](http://tinyurl.com/karatera) - can help you evaluate Karate. Do note that if you prefer a pure Java API - Karate has [that covered](#java-api), and with far more capabilities.
 
 ## References
-* [Intro to all features of Karate](https://youtu.be/yu3uupBZyxc) - video + demos (with subtitles) by [Peter Thomas](https://twitter.com/ptrthomas) (creator / lead dev of Karate)
+* [API Testing with Karate](https://youtu.be/WT4gg7Jutzg) - video + demos by [Peter Thomas](https://twitter.com/ptrthomas) (creator / lead dev of Karate)
+* [Intro to all features of Karate](https://youtu.be/yu3uupBZyxc) - video + demos by [Peter Thomas](https://twitter.com/ptrthomas) (creator / lead dev of Karate)
 * [Karate entered the ThoughtWorks Tech Radar](https://twitter.com/KarateDSL/status/1120985060843249664) in 2019 and was [upgraded in ranking](https://twitter.com/KarateDSL/status/1262719979104817152) in May 2020
 * [マイクロサービスにおけるテスト自動化 with Karate](https://speakerdeck.com/takanorig/microservices-testing-automation-with-karate) - (*Microservices Test Automation with Karate*) presentation by [Takanori Suzuki](https://twitter.com/takanorig)
-* [7 New Features in Karate Test Automation Version 1.0](https://software-that-matters.com/2021/01/27/7-new-features-in-karate-test-automation-version-1_0/) - by [Peter Quiel](https://twitter.com/peter_quiel)
+* [Writing API Tests with Karate](https://www.softwaretester.blog/writing-api-tests-with-karate) - book by [Benjamin Bischoff](https://www.softwaretester.blog/about), Packt Publishing, 2023
 
-You can find a lot more references, tutorials and blog-posts [in the wiki](https://github.com/karatelabs/karate/wiki/Community-News). Karate also has a dedicated "tag", and a very active and supportive community at [Stack Overflow](https://stackoverflow.com/questions/tagged/karate) - where you can get support and ask questions.
+Karate also has a dedicated "tag", and a very active and supportive community at [Stack Overflow](https://stackoverflow.com/questions/tagged/karate) - where you can get support and ask questions.
+
+You can find a lot more references, tutorials and blog-posts at [karatelabs.io](https://karatelabs.io).
 
 # Getting Started
 If you are a Java developer - Karate requires at least [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) 11 and then either [Maven](http://maven.apache.org), [Gradle](https://gradle.org), or a Java IDE that embeds either to be installed. Note that Karate works fine on OpenJDK.
@@ -403,6 +376,7 @@ For example when using Maven:
   <artifactId>karate-core</artifactId>
   <version>${karate.version}</version>
   <classifier>all</classifier>
+  <scope>test</scope>
 </dependency>
 ```
 
@@ -514,7 +488,7 @@ Assuming you use JUnit, there are some good reasons for the recommended (best pr
 For details on what actually goes into a script or `*.feature` file, refer to the [syntax guide](#syntax-guide).
 
 ## JUnit 5
-Karate supports JUnit 5 and the advantage is that you can have multiple methods in a test-class. Only 1 `import` is needed, and instead of a class-level annotation, you use a nice [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and [fluent-api](https://en.wikipedia.org/wiki/Fluent_interface) to express which tests and tags you want to use.
+Karate supports [JUnit 5](https://junit.org/junit5) and the advantage is that you can have multiple methods in a test-class. Only 1 `import` is needed, and instead of a class-level annotation, you use a nice [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and [fluent-api](https://en.wikipedia.org/wiki/Fluent_interface) to express which tests and tags you want to use.
 
 Note that the Java class does not need to be `public` and even the test methods do not need to be `public` - so tests end up being very concise.
 
@@ -687,7 +661,7 @@ test {
 }
 ```
 
-The big drawback of the approach above is that you cannot run tests in parallel. The recommended approach for Karate reporting in a Continuous Integration set-up is described in the next section which can generate the [JUnit XML](https://wiki.jenkins-ci.org/display/JENKINS/JUnit+Plugin) format that most CI tools can consume. The [Cucumber JSON format](https://relishapp.com/cucumber/cucumber/docs/formatters/json-output-formatter) can be also emitted, which gives you plenty of options for generating pretty reports using third-party maven plugins.
+The big drawback of the approach above is that you cannot run tests in parallel. The recommended approach for Karate reporting in a Continuous Integration set-up is described in the next section which can generate the [JUnit XML](https://wiki.jenkins-ci.org/display/JENKINS/JUnit+Plugin) format that most CI tools can consume. The [Cucumber JSON format](https://cucumber.io/docs/cucumber/reporting) can be also emitted, which gives you plenty of options for generating pretty reports using third-party maven plugins.
 
 And most importantly - you can run tests in parallel without having to depend on third-party hacks that introduce code-generation and config 'bloat' into your `pom.xml` or `build.gradle`.
 
@@ -700,7 +674,7 @@ Karate can run tests in parallel, and dramatically cut down execution time. This
 * You can easily "choose" features and tags to run and compose test-suites in a very flexible manner.
 * You can use the returned `Results` object to check if any scenarios failed, and to even summarize the errors
 * [JUnit XML](https://wiki.jenkins-ci.org/display/JENKINS/JUnit+Plugin) reports can be generated in the "`reportDir`" path you specify, and you can easily configure your CI to look for these files after a build (for e.g. in `**/*.xml` or `**/karate-reports/*.xml`). Note that you have to call the `outputJunitXml(true)` method on the `Runner` "builder".
-* [Cucumber JSON reports](https://relishapp.com/cucumber/cucumber/docs/formatters/json-output-formatter) can be generated, except that the extension will be `.json` instead of `.xml`. Note that you have to call the `outputCucumberJson(true)` method on the `Runner` "builder".
+* [Cucumber JSON reports](https://cucumber.io/docs/cucumber/reporting) can be generated, except that the extension will be `.json` instead of `.xml`. Note that you have to call the `outputCucumberJson(true)` method on the `Runner` "builder".
 * HTML reports can be disabled by calling [`outputHtmlReport(false)`](https://github.com/karatelabs/karate/blob/v1.2.1.RC1/karate-core/src/main/java/com/karatelabs/karate/Runner.java#L515).
 * The `Runner.path()` "builder" method in `karate-core` is how you refer to the package you want to execute, and all feature files within sub-directories will be picked up
 * `Runner.path()` takes multiple string parameters, so you can refer to multiple packages or even individual `*.feature` files and easily "compose" a test-suite
@@ -713,6 +687,12 @@ Karate can run tests in parallel, and dramatically cut down execution time. This
 * `parallel()` *has* to be the last method called, and you pass the number of parallel threads needed. It returns a `Results` object that has all the information you need - such as the number of passed or failed tests.
 
 ### JUnit 5 Parallel Execution
+
+The example below assumes that [JUnit 5](https://junit.org/junit5) is available on the classpath, and uses the `@Test` annotation and the `assertEquals()` method.
+
+> But if you really want, you could use the `Runner` and `Results` API directly in *any* Java class, and even a "main" method.
+
+Use the [`karate-template`](https://github.com/karatelabs/karate-template) project if you want to get an [example](https://github.com/karatelabs/karate-template/blob/main/src/test/java/examples/ExamplesTest.java) as part of a working, "skeleton" project.
 
 ```java
 import com.intuit.karate.Results;
@@ -3279,6 +3259,8 @@ You usually won't need this, but the second-last line above shows how the `karat
 ## JSON Transforms
 Karate supports the following [functional-style](https://en.wikipedia.org/wiki/Functional_programming) operations via the JS API -  [`karate.map()`](#karate-map), [`karate.filter()`](#karate-filter) and [`karate.forEach()`](#karate-foreach). They can be very useful in some situations. A [good example](https://stackoverflow.com/a/53120851/143475) is when you have the *expected* data available as ready-made JSON but it is in a different "shape" from the *actual* data or HTTP `response`. There is also a [`karate.mapWithKey()`](#karate-mapwithkey) for a common need - which is to convert an array of primitives into an array of objects, which is the form that [data driven features](#data-driven-features) expect.
 
+The Graal JS engine that Karate uses supports the full ES6 spec, which means that JSON variables are first-class JS objects, and arrays can be *directly* looped over or manipulated using [`map()`, `filter()` and `forEach()`](https://stackoverflow.com/a/76091034/143475). And JS "arrow functions" are supported, which makes code much more concise.
+
 A few more useful "transforms" are to select a sub-set of key-value pairs using [`karate.filterKeys()`](#karate-filterkeys), merging 2 or more JSON-s using [`karate.merge()`](#karate-merge) and combining 2 or more arrays (or objects) into a single array using [`karate.append()`](#karate-append). And [`karate.appendTo()`](#karate-appendto) is for updating an existing variable (the equivalent of `array.push()` in JavaScript), which is especially useful in the body of a `karate.forEach()`.
 
 You can also sort arrays of arbitrary JSON using [`karate.sort()`](#karate-sort). Simple arrays of strings or numbers can be stripped of duplicates using [`karate.distinct()`](#karate-distinct). All JS "native" array operations can be used, such as `someName.reverse()`.
@@ -3290,6 +3272,11 @@ Scenario: karate map operation
     * def fun = function(x){ return x * x }
     * def list = [1, 2, 3]
     * def res = karate.map(list, fun)
+    * match res == [1, 4, 9]
+
+Scenario: js style map operation
+    * def list = [1, 2, 3]
+    * def res = list.map(list, x => x * x)
     * match res == [1, 4, 9]
 
 Scenario: convert an array into a different shape
@@ -3309,7 +3296,12 @@ Scenario: karate filter operation
     * def res = karate.filter(list, fun)
     * match res == [2, 4]
 
-Scenario: forEach works even on object key-values, not just arrays
+Scenario: js style filter operation
+    * def list = [1, 2, 3, 4]
+    * def res = list.filter(list, x => x % 2 == 0)
+    * match res == [2, 4]    
+
+Scenario: karate.forEach() works even on object key-values, not just arrays
     * def keys = []
     * def vals = []
     * def idxs = []
